@@ -6,7 +6,6 @@
 
 - `index.html`: 페이지 구조
 - `styles.css`: 페이지 스타일
-- `assets/school_logoC.png`: 원본 학교 로고 이미지
 - `assets/school_logoC.svg`: SVG로 감싼 학교 로고 이미지
 
 학교 로고를 바꾸고 싶다면 `assets/school_logoC.svg`를 교체하거나,
