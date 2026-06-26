@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="page-shell">
+    <header class="site-header" aria-label="페이지 소개">
+      <a class="brand-mark" href="#main" aria-label="본문으로 이동">
+        <span class="brand-symbol">AI</span>
+        <span class="brand-text">Profile Page</span>
+      </a>
+
+      <div class="challenge-logo" aria-label="Hello AI Agent Challenge">
+        <div class="challenge-track" aria-hidden="true">
+          <span>Hello AI Agent Challenge</span>
+          <span>Hello AI Agent Challenge</span>
+          <span>Hello AI Agent Challenge</span>
+          <span>Hello AI Agent Challenge</span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="search-hero">
+          <p class="eyebrow">Searchable Profile</p>
+          <h1 id="hero-title">
+            AI 모델을 배우고, 구현하며,<br>실제 환경에 연결하는 과정을 탐색하고 있습니다.
+          </h1>
+          <p class="hero-description">
+            Vision, Robotics, ML, On-device AI에 관심을 두고 작은 실험과 프로젝트를
+            통해 이해를 넓혀가고 있습니다.
+          </p>
+        </div>
+
+        <div class="connection-visual" aria-hidden="true">
+          <div class="visual-card visual-card-model">Model</div>
+          <div class="visual-line"></div>
+          <div class="visual-card visual-card-app">App</div>
+          <div class="visual-line"></div>
+          <div class="visual-card visual-card-device">Device</div>
+        </div>
+      </section>
+
+      <section class="profile-card" aria-labelledby="profile-title">
+        <div class="school-logo">
+          <img src="./assets/school_logoC.svg" alt="학교 로고" />
+        </div>
+
+        <div class="profile-content">
+          <p class="section-kicker">Student Profile</p>
+          <h2 id="profile-title">정현우</h2>
+          <p class="profile-meta">충남대학교 · 컴퓨터융합학부 · 4학년</p>
+          <p class="profile-summary">
+            AI 모델이 실험 코드에 머무르지 않고, 앱과 서비스 안에서 실제로 동작하는
+            과정에 흥미를 느낍니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-block" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="section-kicker">About Me</p>
+          <h2 id="about-title">저는 이런 방식으로 배우고 만듭니다</h2>
+        </div>
+
+        <div class="card-grid three-columns">
+          <article class="info-card">
+            <div class="line-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M4 7.5h16M7 4.5h10M6 11.5h12M8 15.5h8M10 19.5h4" />
+              </svg>
+            </div>
+            <h3>구현하며 배우는 편입니다</h3>
+            <p>
+              동작하는 예제를 먼저 실행하고, 구조를 이해한 뒤 필요한 개념을 채워가는
+              방식을 선호합니다.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="line-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M6 12h12M12 6v12M5 5h4v4H5zM15 5h4v4h-4zM5 15h4v4H5zM15 15h4v4h-4z" />
+              </svg>
+            </div>
+            <h3>AI를 제품 흐름에 연결하고 싶습니다</h3>
+            <p>
+              모델 학습에서 끝나는 것이 아니라, 추론 결과가 앱과 서비스 안에서 사용되는
+              과정에 관심이 있습니다.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <div class="line-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5" />
+              </svg>
+            </div>
+            <h3>AI 도구를 개발 과정에 활용합니다</h3>
+            <p>
+              LLM을 설계 검토, 코드 작성, 문서화, 실험 정리에 활용하며 결과물 중심으로
+              학습하고 있습니다.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block" aria-labelledby="interests-title">
+        <div class="section-heading">
+          <p class="section-kicker">Exploring Interests</p>
+          <h2 id="interests-title">관심 있게 탐색 중인 분야</h2>
+          <p>
+            현재 가장 궁금한 순서대로 정리했습니다. 아직 능숙하다고 말하기보다는,
+            직접 구현하고 실험하면서 이해해보고 싶은 주제들입니다.
+          </p>
+        </div>
+
+        <ol class="interest-list" aria-label="관심도 순서대로 정리한 분야 목록">
+          <li>
+            <span class="interest-rank">01</span>
+            <div>
+              <strong>ML Engineering</strong>
+              <p>모델 학습, 평가, 추론, 서비스 연결까지 이어지는 흐름에 관심이 있습니다.</p>
+            </div>
+          </li>
+          <li>
+            <span class="interest-rank">02</span>
+            <div>
+              <strong>AI / Deep Learning</strong>
+              <p>딥러닝 모델이 어떻게 학습되고 실제 문제에 적용되는지 이해하고 싶습니다.</p>
+            </div>
+          </li>
+          <li>
+            <span class="interest-rank">03</span>
+            <div>
+              <strong>Computer Vision</strong>
+              <p>이미지와 영상 데이터를 활용해 인식·검색·분류하는 방식에 관심이 있습니다.</p>
+            </div>
+          </li>
+          <li>
+            <span class="interest-rank">04</span>
+            <div>
+              <strong>Robotics Perception</strong>
+              <p>로봇이나 자율주행 시스템이 주변 환경을 인식하는 과정이 궁금합니다.</p>
+            </div>
+          </li>
+          <li>
+            <span class="interest-rank">05</span>
+            <div>
+              <strong>On-device AI</strong>
+              <p>제한된 컴퓨팅 환경에서 AI 모델을 실행하는 방식에 관심이 있습니다.</p>
+            </div>
+          </li>
+          <li>
+            <span class="interest-rank">06</span>
+            <div>
+              <strong>AI Service / Cloud</strong>
+              <p>AI 모델을 API나 서비스 형태로 제공하고 운영하는 구조를 알고 싶습니다.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section-block" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="section-kicker">Previous Work</p>
+          <h2 id="work-title">이전 작업 목록</h2>
+          <p>
+            지금까지 참여했거나 정리한 작업들입니다. 자세한 설명보다, 어떤 흐름의
+            프로젝트를 경험했는지 빠르게 볼 수 있도록 간단히 정리했습니다.
+          </p>
+        </div>
+
+        <div class="work-list" aria-label="이전 작업 링크 목록">
+          <article class="work-card">
+            <span class="work-label">Organization</span>
+            <strong>Ssacthree</strong>
+            <p>Spring Framework 기반 도서 사이트를 목표로 진행한<br>팀 프로젝트와 협업 경험이<br>정리된 GitHub organization입니다.</p>
+            <div class="work-actions" aria-label="Ssacthree 관련 링크">
+              <a class="work-button work-button-secondary" href="https://github.com/nhnacademy-be7-Ssacthree"
+                target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <span class="work-label">Featured Project</span>
+            <strong>On-device Landmark Assistant</strong>
+            <p>이미지와 텍스트 기반 landmark assistant 프로젝트입니다.</p>
+            <div class="work-actions" aria-label="On-device Landmark Assistant 관련 링크">
+              <a class="work-button" href="https://github.com/HyunKN/ondevice-landmark-assistant" target="_blank"
+                rel="noopener noreferrer">GitHub</a>
+              <a class="work-button work-button-secondary" href="https://landmark-assistant-sprint1.vercel.app/"
+                target="_blank" rel="noopener noreferrer">Web Docs</a>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <span class="work-label">Experiment</span>
+            <strong>Distillation Server DDP</strong>
+            <p>실제 대회에 참여해보며 모델 학습 실험을 정리한 개인 저장소입니다.<br>비록 좋은 성적은 얻지 못하였으나 모델 학습에 대한 입문하며 다양한 경험을 하게되었습니다.</p>
+            <div class="work-actions" aria-label="Distillation Server DDP 관련 링크">
+              <a class="work-button work-button-secondary" href="https://github.com/HyunKN/distillation_ver1_ar"
+                target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block project-section" aria-labelledby="project-title">
+        <div class="section-heading">
+          <p class="section-kicker">Recent Project Experience</p>
+          <h2 id="project-title">On-device Landmark Assistant</h2>
+          <p>
+            이미지와 텍스트를 활용해 장소 정보를 탐색하는 AI 기반 assistant
+            프로젝트입니다. 팀 프로젝트 안에서 초기 demo app 흐름과 AI 모델 연동을
+            중심으로 참여했습니다.
+          </p>
+          <p>
+            이 프로젝트를 통해 모델 추론 결과를 실제 앱 흐름에 연결할 때 필요한 데이터
+            흐름과 역할 분리를 경험했습니다.
+          </p>
+        </div>
+
+        <div class="project-panel">
+          <div class="project-flow" aria-label="프로젝트 처리 흐름">
+            <span>Image / Text</span>
+            <span>AI Model</span>
+            <span>Landmark Result</span>
+            <span>App Experience</span>
+          </div>
+
+          <div class="project-note">
+            <h3>제가 집중한 부분</h3>
+            <ul>
+              <li>초기 demo app 흐름 설계</li>
+              <li>AI 모델 활용 방식 검토</li>
+              <li>모델 연동 작업</li>
+              <li>학습과 추론 결과를 앱 흐름에 연결</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block" aria-labelledby="learning-title">
+        <div class="section-heading">
+          <p class="section-kicker">Currently Learning</p>
+          <h2 id="learning-title">지금은 기초 구현력을 쌓고 있습니다</h2>
+          <p>
+            Python과 PyTorch를 기반으로 작은 예제부터 직접 구현하며, AI 모델을 학습하고
+            추론 가능한 형태로 연결하는 과정을 공부하고 있습니다.
+          </p>
+        </div>
+
+        <ol class="learning-roadmap" aria-label="학습 로드맵">
+          <li>Python Basics</li>
+          <li>PyTorch</li>
+          <li>Dataset / DataLoader</li>
+          <li>Training Loop</li>
+          <li>Evaluation</li>
+          <li>ONNX / Edge Inference</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a href="https://github.com/HyunKN" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <span aria-hidden="true">·</span>
+      <a href="mailto:wjdg159@gmail.com">Contact</a>
+    </footer>
+  </div>
+</body>
+
+</html>
